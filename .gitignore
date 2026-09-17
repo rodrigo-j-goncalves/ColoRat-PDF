@@ -1,0 +1,24 @@
+# Ignore everything by default, then explicitly allow what should be tracked.
+
+# Ignore all files by default
+*
+
+# But allow traversal into directories so the rules below can match
+!*/
+
+# --- Explicitly tracked files ---
+
+# Project files
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+
+# Main pipeline
+!02_process/script.py
+
+# Synthetic test PDFs (safe to share; no copyrighted content)
+!01_input/test_*.pdf
+
+# Keep empty output directory in fresh clones
+!03_output/.gitkeep
