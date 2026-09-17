@@ -67,4 +67,5 @@ Si algún archivo tiene algún problema y no se puede procesar, el resumen expli
 
 ## Licence & Credits
 
-MIT License — Rodrigo J. Gonçalves. Ver [LICENSE](LICENSE) para el texto completo.
+- MIT License — Rodrigo J. Gonçalves. Ver [LICENSE](LICENSE) para el texto completo.
+- Esto lo he _Claudesarrolado_ ;)
